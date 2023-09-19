@@ -14,6 +14,8 @@
 
 -   I was a Civil Engineer with ten years of experience but decided to go back to school and pursue a Master's in Applied Computer Science at GVSU back in 2021. I successfully changed into a Software Engineer last October, and I am currently working in the Enterprise Consultant Industry, focusing on Web Application Development. I became familiar with Python, C#, SQL, JavaScript, CSS, and HTML through academia and my job. I am comfortable with and understand the basics of the Angular Framework, and I have some exposure to the React, React Native, and .NET frameworks.
 
-## Favorite Meme - [Link](https://imgflip.com/memegenerator/228603083/odd1sout-vs-computer-chess "Odd1sOut's Chess Meme)
+## Favorite Meme
+
+-   [Link](https://imgflip.com/memegenerator/228603083/odd1sout-vs-computer-chess "Odd1sOut's Chess Meme)
 
 -   This is how I feel every time I code and show it to my family in the industry, supervisors, peers, and professors.
