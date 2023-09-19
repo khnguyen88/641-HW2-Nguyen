@@ -16,6 +16,6 @@
 
 ## Favorite Meme
 
--   [Link](https://imgflip.com/memegenerator/228603083/odd1sout-vs-computer-chess "Odd1sOut's Chess Meme)
+-   [Link](https://imgflip.com/memegenerator/228603083/odd1sout-vs-computer-chess "Odd1sOut's Chess Meme")
 
 -   This is how I feel every time I code and show it to my family in the industry, supervisors, peers, and professors.
