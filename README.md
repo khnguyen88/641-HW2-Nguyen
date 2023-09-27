@@ -18,6 +18,6 @@ I was a Civil Engineer with ten years of experience but decided to go back to sc
 
 -   [Meme Link - Odd1sOut's Chess Meme](https://imgflip.com/memegenerator/228603083/odd1sout-vs-computer-chess "Odd1sOut's Chess Meme")
 
-    -   This is how I feel every time I program and show my code to my family members in the industry, supervisors, peers, and professors.
+    -
 
 -   ![Meme Image - Odds1sOut's Chess Meme](https://i.imgflip.com/3s3r9n.png?a470995)
