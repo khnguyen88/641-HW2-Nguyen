@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <title>Khiem's Personal Website</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -10,113 +10,145 @@
     <link rel="stylesheet" href="./index.css" />
 </head>
     <body>
-
         <!-- Navigation Bar -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary rounded" aria-label="Eleventh navbar example">
+        <nav class="navbar navbar-expand-lg nav-bs-override">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <!-- CAT ICON, FROM FONT AWESOME -->
-                    <svg xmlns="http://www.w3.org/2000/svg" height="2em"
+                    <svg xmlns="http://www.w3.org/2000/svg" height="2em" class="filter-color-logo"
                         viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
                         <path
                             d="M269.4 2.9C265.2 1 260.7 0 256 0s-9.2 1-13.4 2.9L54.3 82.8c-22 9.3-38.4 31-38.3 57.2c.5 99.2 41.3 280.7 213.6 363.2c16.7 8 36.1 8 52.8 0C454.7 420.7 495.5 239.2 496 140c.1-26.2-16.3-47.9-38.3-57.2L269.4 2.9zM160 154.4c0-5.8 4.7-10.4 10.4-10.4h.2c3.4 0 6.5 1.6 8.5 4.3l40 53.3c3 4 7.8 6.4 12.8 6.4h48c5 0 9.8-2.4 12.8-6.4l40-53.3c2-2.7 5.2-4.3 8.5-4.3h.2c5.8 0 10.4 4.7 10.4 10.4V272c0 53-43 96-96 96s-96-43-96-96V154.4zM216 288a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm96-16a16 16 0 1 0 -32 0 16 16 0 1 0 32 0z" />
                     </svg>
                 </a>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample09"
-                    aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navBarX"
+                    aria-controls="navBarX" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse" id="navbarsExample09">
+                <div class="collapse navbar-collapse" id="navBarX">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active active-nav" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://khnguyen88.github.io/CIS641-HW2-Nguyen/resume/resume.html">Resume</a>
+                            <a class="nav-link" href="">Resume</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="https://khnguyen88.github.io/js-snake-project-ver1/" target="_blank">Snake Game Project</a>
                         </li>
                     </ul>
-                    <form role="search">
-                        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-                    </form>
                 </div>
             </div>
         </nav>
 
         <!-- Main Content -->
-        <h1>Interests</h1>
-            <ul>
-                <li>
-                    Photography is one of my primary interests and hobbies. I enjoy understanding the subject matter, composition,
-                    lighting, colors, etc. I mainly shoot for personal enjoyment and focus on slice-of-life moments, but I have experimented
-                    and done urban, street, model, portraits, landscape, astro, wedding, and events photography in the past.
-                </li>
-                <li>
-                    Cooking is my other passion. It satisfies my desire for creativity and my love for science. It is an activity that I do
-                    at least a few times a week, out of necessity and for fun. I enjoy that you must use all of your senses in cooking,
-                    which adds complexity to the activity. Sometimes, it's fun treating cooking like some advanced magic system that
-                    requires balancing different flavors and textures. What I love about cooking, is that the good food we make often brings
-                    and bond people together. Recently, I learned how to make Country Fried Oyster and Lion Manes Mushrooms, and that's been
-                    a big hit at my last few cookouts.
-                </li>
-                <li>
-                    Gardening is a hobby I picked up from my parents. Growing up, my parents used to grow vegetables and flowers on our
-                    frontyard, backyard, and deck. I am naturally drawn to growing vegetables because it complement my cooking interests.
-                    However, I recently started growing a few pollinator plants and flowers near my vegetable garden to help the native
-                    pollinators out. I found that one of the benefits of these plants is that they attract and encourage bees, wasps, moths,
-                    and ants to pollinate all of the surrounding vegetables near the flowers, resulting in higher yields of produces.
-                </li>
-                <li>
-                    Regarding programming-related technical interests, I'd like to explore IoT development and simulator development of
-                    natural environments and systems using game engines. I want to explore IoT development to build practical tools to
-                    complement my hobbies, such as gardening. I want to develop models and simulations to just satisfy my love for science
-                    and nature. Who wouldn't want to simulate an ecosystem of little organism battling it out for survival or planatary
-                    systems?
-                </li>
-            </ul>
-        <h1>Technical Background</h1>
-        <p>
-            I was a Civil Engineer with ten years of experience but decided to go back to school and pursue a Master's in Applied
-            Computer Science at GVSU back in 2021. I successfully changed into a Software Engineer last October, and I am currently
-            working in the Enterprise Consultant Industry, focusing on Web Application Development. I became familiar with Python,
-            C#, SQL, JavaScript, CSS, and HTML through academia and my job. I am comfortable with and understand the basics of the
-            Angular Framework, and I have some exposure to the React, React Native, and .NET frameworks.
-        </p>
-        <h1>Favorite Meme</h1>
-        <ul>
-            <li>
-                <a href="https://imgflip.com/memegenerator/228603083/odd1sout-vs-computer-chess">Meme Link - Odd1sOut's Chess Meme</a>
+        <main>
+        <section class="flex-container">
+            <section class="profile">
+                <p>
+                    <img class="profile-image" src="https://khnguyen88.github.io/CIS641-HW2-Nguyen/images/profile.jpg" alt="Profile Picture">
+                </p>
+                <p>
+                    <b></b>
+                </p>
+                <h2><b>Khiem Nguyen</b></h2><br>
+                <p></p>
+            </section>
+        </section>
+            <section>
+                <h1>Interests</h1>
                 <ul>
-                    <li>This is how I feel every time I program and show my code to my family members in the industry, supervisors, peers, and
-                    professors.</li>
+                    <li>
+                        Photography is one of my primary interests and hobbies. I enjoy understanding the subject matter, composition,
+                        lighting, colors, etc. I mainly shoot for personal enjoyment and focus on slice-of-life moments, but I have
+                        experimented
+                        and done urban, street, model, portraits, landscape, astro, wedding, and events photography in the past.
+                    </li>
+                    <li>
+                        Cooking is my other passion. It satisfies my desire for creativity and my love for science. It is an activity
+                        that I do
+                        at least a few times a week, out of necessity and for fun. I enjoy that you must use all of your senses in
+                        cooking,
+                        which adds complexity to the activity. Sometimes, it's fun treating cooking like some advanced magic system that
+                        requires balancing different flavors and textures. What I love about cooking, is that the good food we make
+                        often brings
+                        and bond people together. Recently, I learned how to make Country Fried Oyster and Lion Manes Mushrooms, and
+                        that's been
+                        a big hit at my last few cookouts.
+                    </li>
+                    <li>
+                        Gardening is a hobby I picked up from my parents. Growing up, my parents used to grow vegetables and flowers on
+                        our
+                        frontyard, backyard, and deck. I am naturally drawn to growing vegetables because it complement my cooking
+                        interests.
+                        However, I recently started growing a few pollinator plants and flowers near my vegetable garden to help the
+                        native
+                        pollinators out. I found that one of the benefits of these plants is that they attract and encourage bees,
+                        wasps, moths,
+                        and ants to pollinate all of the surrounding vegetables near the flowers, resulting in higher yields of
+                        produces.
+                    </li>
+                    <li>
+                        Regarding programming-related technical interests, I'd like to explore IoT development and simulator development
+                        of
+                        natural environments and systems using game engines. I want to explore IoT development to build practical tools
+                        to
+                        complement my hobbies, such as gardening. I want to develop models and simulations to just satisfy my love for
+                        science
+                        and nature. Who wouldn't want to simulate an ecosystem of little organism battling it out for survival or
+                        planatary
+                        systems?
+                    </li>
                 </ul>
-            </li>
-            <li>
-                <img src="https://i.imgflip.com/3s3r9n.png?a470995" alt="Meme Link - Odd1sOut's Chess Meme">
-            </li>
-        </ul>
+                <h1>Technical Background</h1>
+                <p>
+                    I was a Civil Engineer with ten years of experience but decided to go back to school and pursue a Master's in
+                    Applied
+                    Computer Science at GVSU back in 2021. I successfully changed into a Software Engineer last October, and I am
+                    currently
+                    working in the Enterprise Consultant Industry, focusing on Web Application Development. I became familiar with
+                    Python,
+                    C#, SQL, JavaScript, CSS, and HTML through academia and my job. I am comfortable with and understand the basics of
+                    the
+                    Angular Framework, and I have some exposure to the React, React Native, and .NET frameworks.
+                </p>
+                <h1>Favorite Meme</h1>
+                <ul>
+                    <li>
+                        <a href="https://imgflip.com/memegenerator/228603083/odd1sout-vs-computer-chess">Meme Link - Odd1sOut's Chess
+                            Meme</a>
+                        <ul>
+                            <li>This is how I feel every time I program and show my code to my family members in the industry,
+                                supervisors, peers, and
+                                professors.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <img src="https://i.imgflip.com/3s3r9n.png?a470995" alt="Meme Link - Odd1sOut's Chess Meme" class="image-meme">
+                    </li>
+                </ul>
+            </section>
+        </main>
 
-
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <!-- Footer Bar -->
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-4 border-top">
             <div class="col-md-4 d-flex align-items-center">
                 <!-- CAT ICON, FROM FONT AWESOME -->
-                <svg xmlns="http://www.w3.org/2000/svg" height="2em"
+                <svg xmlns="http://www.w3.org/2000/svg" height="3em" class="logo-style filter-color-logo"
                     viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
                     <path
                         d="M269.4 2.9C265.2 1 260.7 0 256 0s-9.2 1-13.4 2.9L54.3 82.8c-22 9.3-38.4 31-38.3 57.2c.5 99.2 41.3 280.7 213.6 363.2c16.7 8 36.1 8 52.8 0C454.7 420.7 495.5 239.2 496 140c.1-26.2-16.3-47.9-38.3-57.2L269.4 2.9zM160 154.4c0-5.8 4.7-10.4 10.4-10.4h.2c3.4 0 6.5 1.6 8.5 4.3l40 53.3c3 4 7.8 6.4 12.8 6.4h48c5 0 9.8-2.4 12.8-6.4l40-53.3c2-2.7 5.2-4.3 8.5-4.3h.2c5.8 0 10.4 4.7 10.4 10.4V272c0 53-43 96-96 96s-96-43-96-96V154.4zM216 288a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm96-16a16 16 0 1 0 -32 0 16 16 0 1 0 32 0z" />
                 </svg>
-                <span class="mb-3 mb-md-0 text-body-secondary">©2023 Benzi, Simba, Mew, and Sammy, Inc.</span>
+                <span class="mb-3 mb-md-0">©2023 Benzi, Simba, Mew, and Sammy, Inc.</span>
             </div>
 
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
                 <li class="ms-3">
                     <a class="text-body-secondary" href="https://github.com/khnguyen88">
                         <!-- GITHUB ICON, FROM FONT AWESOME -->
-                        <svg xmlns="http://www.w3.org/2000/svg" height="2em"
+                        <svg xmlns="http://www.w3.org/2000/svg" height="2em" class="filter-color-logo"
                             viewBox="0 0 496 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
                             <path
                                 d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
@@ -126,7 +158,7 @@
                 <li class="ms-3">
                     <a class="text-body-secondary" href="https://www.linkedin.com/in/khiem-nguyen-61771829/">
                         <!-- LINKEDIN ICON, FROM FONT AWESOME -->
-                        <svg xmlns="http://www.w3.org/2000/svg" height="2em"
+                        <svg xmlns="http://www.w3.org/2000/svg" height="2em" class="media-icon filter-color-logo"
                             viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
                             <path
                                 d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
