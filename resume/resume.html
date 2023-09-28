@@ -1,11 +1,286 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
-</head>
-<body>
-    <p>HI MOM</p>
-</body>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Resume</title>
+
+        <!-- BOOTSTRAP STYLES -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+        <!-- CUSTOM STYLES -->
+        <link rel="stylesheet" href="../style.css" />
+        <link rel="stylesheet" href="./resume.css" />
+    </head>
+
+    <body>
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg nav-bs-override">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <!-- CAT ICON, FROM FONT AWESOME -->
+                    <svg xmlns="http://www.w3.org/2000/svg" height="2em" class="filter-color-logo"
+                        viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                        <path
+                            d="M269.4 2.9C265.2 1 260.7 0 256 0s-9.2 1-13.4 2.9L54.3 82.8c-22 9.3-38.4 31-38.3 57.2c.5 99.2 41.3 280.7 213.6 363.2c16.7 8 36.1 8 52.8 0C454.7 420.7 495.5 239.2 496 140c.1-26.2-16.3-47.9-38.3-57.2L269.4 2.9zM160 154.4c0-5.8 4.7-10.4 10.4-10.4h.2c3.4 0 6.5 1.6 8.5 4.3l40 53.3c3 4 7.8 6.4 12.8 6.4h48c5 0 9.8-2.4 12.8-6.4l40-53.3c2-2.7 5.2-4.3 8.5-4.3h.2c5.8 0 10.4 4.7 10.4 10.4V272c0 53-43 96-96 96s-96-43-96-96V154.4zM216 288a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm96-16a16 16 0 1 0 -32 0 16 16 0 1 0 32 0z" />
+                    </svg>
+                </a>
+        
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navBarX"
+                    aria-controls="navBarX" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class="collapse navbar-collapse" id="navBarX">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="https://khnguyen88.github.io/CIS641-HW2-Nguyen/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active active-nav" href="#">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://khnguyen88.github.io/js-snake-project-ver1/" target="_blank">Snake
+                                Game Project</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Web Resume -->
+        <section class="resume .flex-container-type-C">
+            <!-- Web Resume - Section - Header -->
+            <div class="resume resume-header flex-item-B">
+                <p>
+                    Grand Rapids, MI
+                    <br />
+                    (410) 900-3533
+                    <br />
+                    <a href="mailto:khnguyen88@gmail.com">khnguyen88@gmail.com</a>
+                </p>
+                <br />
+            </div>
+            <!-- Web Resume - Section - Education -->
+            <div class="resume resume-education flex-item-B">
+                <strong>
+                    <h2>Education</h2>
+                </strong>
+
+                <h3>Master of Science in Applied Computer Science</h3>
+                <p>
+                    <i>Jan. 2024 (Anticipated) </i><br />
+                    Concentration in Software Development, GPA 4.0 <br />
+                    Grand Valley State University, Grand Rapids, MI
+                </p>
+                <h3>Bachelor of Science in Civil & Environmental Engineering</h3>
+                <p>
+                    <i>Dec. 2010</i><br />
+                    Concentration in Environment & Water Resources, GPA 3.6<br />
+                    University of Maryland, College Park, MD
+                </p>
+            </div>
+
+            <!-- Web Resume - Section - Relevant Skills -->
+            <div class="resume resume-skills flex-item-B">
+                <strong>
+                    <h2>Relevant Skills</h2>
+                </strong>
+
+                <!-- Subsection - Programming Languages -->
+                <h3><i>Programming Languages:</i></h3>
+                <ul>
+                    <li>Python</li>
+                    <li>HTML & CSS</li>
+                    <li>JavaScript (JS)</li>
+                    <li>SQL</li>
+                    <li>PHP</li>
+                    <li>Java</li>
+                    <li>C</li>
+                </ul>
+                <br />
+                <!-- Subsection - Software -->
+                <h3><i>Software:</i></h3>
+                <ul>
+                    <li>Visual Studio Code</li>
+                    <li>PyCharm</li>
+                    <li>Arduino IDE</li>
+                    <li>JEST</li>
+                    <li>ArcGIS 10.3</li>
+                    <li>AutoCAD Civil 3D</li>
+                    <li>MicroStation V8i</li>
+                    <li>Solidworks</li>
+                    <li>HEC-GeoRas</li>
+                    <li>TR-20 & TR-55</li>
+                    <li>HEC-RAS</li>
+                    <li>Adobe Suite</li>
+                </ul>
+            </div>
+
+            <!-- Web Resume - Section - Programming Projects -->
+            <div class="resume resume-projects flex-item-B">
+                <strong>
+                    <h2>Programming Projects</h2>
+                </strong>
+
+                <ul>
+                    <!-- Subsection - Item 1 -->
+                    <li>
+                        <b>Personal Website - </b>
+                        Built a responsive personal website to showcase projects and creativity and increase
+                        public outreach using HTML, CSS, JavaScript, PHP, and SQL
+                    </li>
+                    <!-- Subsection - Item 2 -->
+                    <li>
+                        <b>Pong Game JS - </b>
+                        Built a single player pong game against a PC-controlled paddle that scales dynamically
+                        to screen size in HTML, CSS, and Javascript. Wrote a series of unit and integration
+                        tests for game using JEST.
+                    </li>
+                    <!-- Subsection - Item 3 -->
+                    <li>
+                        <b>Game of Life Simulation - </b>
+                        Used Python to program a terminal text-based cell simulation with user-defined iteration
+                        according to rules defined by neighboring cell
+                    </li>
+                    <!-- Subsection - Item 4 -->
+                    <li>
+                        <b>Climate Control Regulator - </b>
+                        Used the Arduino to build a climate regulator with a sensor that measures and displays
+                        humidity and temperature on LCD monitor and triggers a 5v fog maker if sensor values
+                        reach a certain threshold
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Web Resume - Section - Professional Experience -->
+            <div class="resume resume-work flex-item-B">
+                <strong>
+                    <h2>Professional Experience</h2>
+                </strong>
+
+                <!-- Subsection - Item 1 -->
+                <p>
+                    <b>Project Engineer</b><br />
+                    Stantec Consulting Ltd., Laurel, MD (Remote)<br />
+                    <i>November 2012 – Present</i>
+                </p>
+                <ul>
+                    <li>Supervise and review work of entry-level engineers as drainage sub-team manager</li>
+                    <li>
+                        Lead the design and analysis of drainage systems, stormwater ponds, and environmental
+                        site design facilities
+                    </li>
+                    <li>
+                        Build engineering construction plans with CADD and prepare design reports for a variety
+                        of linear, site development, and coastal design and dredging projects that meet federal,
+                        state, and local standard
+                    </li>
+                    <li>
+                        Prepare project maps, perform site analyses, and manage databases using ArcGIS software
+                    </li>
+                    <li>
+                        Develop the hydrological and hydraulic modeling for FEMA’s and state agencies’
+                        approximate flood studies
+                    </li>
+                    <li>
+                        Perform quality assurance and compliance assessments on engineered design plans,
+                        reports, and computations
+                    </li>
+                </ul>
+                <br />
+                <!-- Subsection - Item 2 -->
+                <p>
+                    <b>Project Engineer & CAD Designer</b><br />
+                    Endesco Inc., Gaithersburg, MD<br />
+                    <i>April 2011 – November 2012</i>
+                </p>
+                <ul>
+                    <li>
+                        Designed and analyzed storm drain systems, sediment control measures, stormwater
+                        management, and ESD/BMP facilities
+                    </li>
+                    <li>
+                        Assisted in the development of drainage plans and cost estimations for roadway and
+                        highway projects
+                    </li>
+                </ul>
+                <br />
+                <!-- Subsection - Item 3 -->
+                <p>
+                    <b>Research Intern</b><br />
+                    <b><i>Maryland Sea Grant REU Program</i></b>
+                    <br />
+                    Horn Point Laboratory, Cambridge, MD <br />
+                    <i>June 2010 – Aug. 2010</i>
+                </p>
+                <ul>
+                    <li>
+                        Designed, constructed, and tested the ACECam - a remote-controlled submersible water
+                        quality measuring device
+                    </li>
+                    <li>
+                        Deployed the ACECam and other tools to collect images and samples of water and sediment
+                        from the Chesapeake Bay
+                    </li>
+                </ul>
+            </div>
+            <!-- Web Resume - Section - License & Certification -->
+            <div class="resume resume-certification flex-item-B">
+                <strong>
+                    <h2>License & Certification</h2>
+                </strong>
+
+                <ul>
+                    <li>Professional Engineer MD (#40397, 2016)</li>
+                    <li>Harvard University edX, CS50: Introduction to Computer Science (WIP)</li>
+                    <li>Udemy, Colt Steel - The Web Developer Bootcamp (WIP)</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Footer Bar -->
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <!-- CAT ICON, FROM FONT AWESOME -->
+                <svg xmlns="http://www.w3.org/2000/svg" height="3em" class="logo-style filter-color-logo"
+                    viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path
+                        d="M269.4 2.9C265.2 1 260.7 0 256 0s-9.2 1-13.4 2.9L54.3 82.8c-22 9.3-38.4 31-38.3 57.2c.5 99.2 41.3 280.7 213.6 363.2c16.7 8 36.1 8 52.8 0C454.7 420.7 495.5 239.2 496 140c.1-26.2-16.3-47.9-38.3-57.2L269.4 2.9zM160 154.4c0-5.8 4.7-10.4 10.4-10.4h.2c3.4 0 6.5 1.6 8.5 4.3l40 53.3c3 4 7.8 6.4 12.8 6.4h48c5 0 9.8-2.4 12.8-6.4l40-53.3c2-2.7 5.2-4.3 8.5-4.3h.2c5.8 0 10.4 4.7 10.4 10.4V272c0 53-43 96-96 96s-96-43-96-96V154.4zM216 288a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm96-16a16 16 0 1 0 -32 0 16 16 0 1 0 32 0z" />
+                </svg>
+                <span class="mb-3 mb-md-0">©2023 Benzi, Simba, Mew, and Sammy, Inc.</span>
+            </div>
+        
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3">
+                    <a class="text-body-secondary" href="https://github.com/khnguyen88">
+                        <!-- GITHUB ICON, FROM FONT AWESOME -->
+                        <svg xmlns="http://www.w3.org/2000/svg" height="2em" class="filter-color-logo"
+                            viewBox="0 0 496 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <path
+                                d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                        </svg>
+                    </a>
+                </li>
+                <li class="ms-3">
+                    <a class="text-body-secondary" href="https://www.linkedin.com/in/khiem-nguyen-61771829/">
+                        <!-- LINKEDIN ICON, FROM FONT AWESOME -->
+                        <svg xmlns="http://www.w3.org/2000/svg" height="2em" class="media-icon filter-color-logo"
+                            viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <path
+                                d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous">
+        </script>
+    </body>
 </html>
