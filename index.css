@@ -43,12 +43,20 @@
 }
 
 .card-style{
-    margin:1em;
-    padding: 2em;
+    margin: 2em;
 }
 
-h1{
-    margin-bottom: 1em;
+.card-head{
+    background-color: #232f41;
+    color: #cca871;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.card-body {
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 li{
